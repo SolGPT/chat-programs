@@ -1,0 +1,10 @@
+[package]
+name = "conversations"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-program = "1.14.10"  # Use the correct version to match your Solana installation
+borsh = { version = "1.4.0", features = ["derive"] }
